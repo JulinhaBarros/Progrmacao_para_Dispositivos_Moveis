@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CalcurarFrete</string>
+    <string name="calcular_frete">Calcular Frete</string>
+    <string name="dist_ncia_a_percorrer_km">Distância a percorrer (km)</string>
+    <string name="peso_do_produto_kg">Peso do produto (kg)</string>
+    <string name="resultado_do_frete">Resultado do Frete:</string>
+</resources>

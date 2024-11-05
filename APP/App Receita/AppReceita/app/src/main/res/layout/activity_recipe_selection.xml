@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/custom_background"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tv_select_recipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/selecione_uma_receita"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lasanha_bolonhesa"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/colorpink"
+        android:textSize="20sp"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/frango_ao_curry"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/colorpink"
+        android:textSize="20sp"
+        tools:ignore="TextSizeCheck,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/moqueca_de_peixe"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/colorpink"
+        android:textSize="20sp"
+        tools:ignore="TextSizeCheck,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/risoto_de_funghi"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/colorpink"
+        android:textSize="20sp"
+        tools:ignore="TextSizeCheck,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/feijoada_tradicional"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/colorpink"
+        android:textSize="20sp"
+        tools:ignore="TextSizeCheck,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/salm_o_grelhado_com_ervas"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/colorpink"
+        android:textSize="20sp"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bolo_de_cenoura"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/colorpink"
+        android:textSize="20sp"
+        tools:ignore="TextSizeCheck,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pudim_de_leite_condensado"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/colorpink"
+        android:textSize="20sp"
+        tools:ignore="TextSizeCheck,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strogonoff_de_frango"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/colorpink"
+        android:textSize="20sp"
+        tools:ignore="VisualLintButtonSize" />
+
+
+
+</LinearLayout>

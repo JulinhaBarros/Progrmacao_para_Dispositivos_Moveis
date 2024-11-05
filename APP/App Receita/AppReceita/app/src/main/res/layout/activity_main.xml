@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/custom_background"
+    android:padding="24dp">
+
+    <!--Logo-->
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@android:drawable/ic_menu_compass"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/logo_desc"/>
+
+    <!-- Nome do aplicativo-->
+    <TextView
+        android:id="@+id/tv_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Texto de boas-vindas -->
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/bem_vindo_ao_app_de_receitas"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="italic"/>
+
+    <!-- Botão de login -->
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fazer_login"
+        android:textSize="18sp"
+        android:paddingHorizontal="30sp"
+        android:paddingVertical="15sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/colorpink"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"/>
+
+</LinearLayout>
+
+
+

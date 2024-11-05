@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/custom_background"
+    android:padding="24dp">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="364dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="monospace"
+        android:text="@string/bem_vindo_a"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <!-- Campo de Email -->
+    <EditText
+        android:id="@+id/email_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorpink"
+        android:fontFamily="monospace"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="#8E24AA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <!-- Campo de Senha -->
+    <EditText
+        android:id="@+id/password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@color/colorpink"
+        android:fontFamily="monospace"
+        android:hint="@string/senha"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="#8E24AA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <!-- Botão de Login -->
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/entrar"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/colorpink"
+        android:padding="16dp"
+        android:elevation="4dp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        tools:ignore="VisualLintButtonSize" />
+
+</LinearLayout>

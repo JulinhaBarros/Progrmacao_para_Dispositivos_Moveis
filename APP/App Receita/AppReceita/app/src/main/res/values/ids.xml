@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tv_welcome" type="id"/>
+    <item name="btn_login" type="id"/>
+    <item name="tv_recipe_name" type="id"/>
+    <item name="tv_recipe_details" type="id"/>
+</resources>

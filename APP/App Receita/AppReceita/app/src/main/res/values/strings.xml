@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AppReceita</string>
+    <string name="entrar">Entrar</string>
+    <string name="senha">Senha</string>
+    <string name="email">Email</string>
+    <string name="bem_vindo_a">Bem Vindo(a)!!</string>
+    <string name="lasanha_bolonhesa">Lasanha à Bolonhesa</string>
+    <string name="quiche_de_alho_por">Quiche de Alho-Poró</string>
+    <string name="strogonoff_de_frango">Strogonoff de Frango</string>
+    <string name="selecione_uma_receita">Selecione uma Receita:</string>
+    <string name="fazer_login">Fazer Login</string>
+    <string name="bem_vindo_ao_app_de_receitas">Bem-vindo ao App de Receitas!</string>
+    <string name="bolo_de_cenoura">Bolo de Cenoura</string>
+    <string name="pudim_de_leite_condensado">Pudim de Leite Condensado</string>
+    <string name="frango_ao_curry">Frango ao Curry</string>
+    <string name="moqueca_de_peixe">Moqueca de Peixe</string>
+    <string name="risoto_de_funghi">Risoto de Funghi</string>
+    <string name="feijoada_tradicional">Feijoada Tradicional</string>
+    <string name="salm_o_grelhado_com_ervas">Salmão Grelhado com Ervas</string>
+    <string name="detalhes_da_receita_v_o_aqui">Detalhes da Receita vão aqui.</string>
+    <string name="nome_da_receita">Nome da Receita</string>
+    <string name="logo_desc">logo_desc\n</string>
+    <string name="Cadastrar">Cadastrar</string>
+
+</resources>

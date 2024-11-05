@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Fundo principal com uma cor suave -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorpink" />
+        </shape>
+    </item>
+
+    <!-- Curva superior (simula uma onda no topo) -->
+    <item android:top="-10dp" android:left="-50dp">
+        <shape android:shape="oval">
+            <solid android:color="@color/color" />
+            <size android:width="100dp" android:height="100dp" />
+        </shape>
+    </item>
+
+    <!-- Curva inferior (simula uma onda na parte inferior da tela) -->
+    <item android:right="-50dp" android:bottom="-10dp">
+        <shape android:shape="oval">
+            <solid android:color="@color/color" />
+            <size android:width="100dp" android:height="50dp" />
+        </shape>
+    </item>
+
+
+</layer-list>
+

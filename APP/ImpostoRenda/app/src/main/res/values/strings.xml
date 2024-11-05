@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ImpostoRenda</string>
+    <string name="c_lculo_de_imposto_de_renda">Cálculo de Imposto de Renda</string>
+    <string name="sal_rio_bruto_anual_r">Salário Bruto Anual (R$)</string>
+    <string name="dedu_es_anuais_r">Deduções Anuais (R$)</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado_aparecer_aqui">Resultado aparecerá aqui</string>
+</resources>

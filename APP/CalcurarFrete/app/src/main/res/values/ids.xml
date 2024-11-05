@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="linearLayout" type="id">linearLayout</item>
+    <item name="etPeso" type="id">etPeso</item>
+    <item name="etDistancia" type="id">etDistancia</item>
+    <item name="btnCalcular" type="id">btnCalcular</item>
+    <item name="tvResultado" type="id">tvResultado</item>
+</resources>
